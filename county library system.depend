@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1644327342 source:c:\users\students\documents\stru-prog-ja-april-2022\county library system\main.c
+	<stdio.h>
+	<stdlib.h>
+

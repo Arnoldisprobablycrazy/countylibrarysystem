@@ -1,6 +1,4 @@
-
-County library management system
-By ARNOLD MAWEU
+BY ARNOLD MAWEU
 FEB 2022
 MIT license
 C89 compiler
@@ -9,6 +7,26 @@ C89 compiler
 #include <stdio.h>
 #include <stdlib.h>
 
+
+struct patron{
+     char name[100];
+     char email[50];
+     char password[30]
+     int is_staff;
+};
+
+void add_patron() {
+    struct Patron patron;
+    printf("Enter name: " );
+    getchar ();
+    gets (patron.name);
+    printf("Enter Email: ");
+    gets(patron.email);
+    printf("Enter 1 if staff 0 otherwise");
+    scanf("%d",&patron.is staff);
+    printf("%s added\n",patron.name);
+
+}
 int menu() {
     int action;
     printf("Select new action below\n");
@@ -47,3 +65,4 @@ int main()
     execute_action(menu());
     return 0;
 }
+
